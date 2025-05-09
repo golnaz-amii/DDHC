@@ -1,0 +1,11 @@
+[tool]
+[tool.ruff.lint]
+select = ['F', 'E', 'W', 'B']
+ignore = ['E501', 'E701']
+
+[tool.pyright]
+include = ['src']
+venvPath = '.'
+venv = '.venv'
+typeCheckingMode = 'off'
+useLibraryCodeForTypes = true
